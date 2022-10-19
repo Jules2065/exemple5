@@ -13,7 +13,7 @@ public final class CalculatorMulti {
      * @return the result of a + b
      */
     public int add(int a, int b) {
-        return 0;
-        //return a * b;
+        //return 0;
+        return a * b;
     }
 }
