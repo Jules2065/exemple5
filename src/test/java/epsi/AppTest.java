@@ -12,10 +12,16 @@ public class AppTest
 {
     /**
      * Test adding two numbers
-     */
+
     @Test
     public void shouldAddTwoNumbers()
     {
         assertEquals("2 + 3 should be 5", 5, App.compute(new String[]{"2", "3"}));
+    }
+    */
+    @Test
+    public void shouldMultiplyTwoNumbers()
+    {
+        assertEquals("2 * 7 should be 14", 14, new CalculatorMulti().add(2, 7));
     }
 }
